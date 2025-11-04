@@ -1,10 +1,8 @@
-//libreria para usar los comandos de consola
-const prompt = require ("prompt-sync")();
 
-//funcion de inicio operacion 
+const prompt = require ("prompt-sync")();
 function Calificacion() {
     let cal = parseInt(prompt("Ingrese la Calificacion: "));
-    let respuesta = cal > 6 && cal <8? "Regular" : cal >= 8? "Exelente "
-    console.Log(`La calificacion es${cal} y es ${respuesta}`)
+    let respuesta = cal > 6 && cal <8? "Regular" : cal >= 8 ? "Exelente" 
+console.log(`La Calificacion es${cal} y es ${respuesta}`);
 }
 Calificacion();
